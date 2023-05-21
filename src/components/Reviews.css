@@ -1,0 +1,33 @@
+.red1 { 
+    color: #EB5757;
+}
+
+.white1 {
+    background: #F2F2F2;
+}
+
+.gray1 {
+    color: #828282;
+
+}
+
+.bgred1 {
+    background: #EB5757;
+}
+
+.black1 {
+    color: #333333;
+}
+
+.pink1 {
+    background: #FEE9DE;
+
+}
+
+.font-poppins {
+    font-family: Poppins;
+}
+
+.mt-500 {
+    margin-top: 500px;
+}

@@ -1,0 +1,21 @@
+nav.sticky {
+    position: sticky;
+    top: 0;
+}
+
+.font-poppins {
+    font-family: Poppins;
+}
+
+.button-login {
+    background: #EB5757;
+    color: white;
+}
+
+.red {
+    color: #EB5757;
+}
+
+.black1 {
+    color: #333333;
+}

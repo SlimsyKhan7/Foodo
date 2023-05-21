@@ -1,0 +1,56 @@
+div h1 {
+    font-weight: 600;
+    color: black;
+    font-family: poppins;
+    font-size: 20px;
+}
+
+div h2 {
+    font-family: poppins;
+    font-weight: 500;
+    color: #333333;
+    font-size: 16px;
+    margin-top: 1rem;
+}
+
+div h3 {
+    font-family: poppins;
+    font-weight: 500;
+    color: #333333;
+    font-size: 18px;
+    margin-top: 1rem;
+}
+
+.font-poppins {
+    font-family: poppins;
+}
+
+.red1 { 
+    color: #EB5757;
+}
+
+.white1 {
+    background: #F2F2F2;
+}
+
+.gray1 {
+    color: #828282;
+
+}
+
+.bgred1 {
+    background: #EB5757;
+}
+
+.black1 {
+    color: #333333;
+}
+
+.pink1 {
+    background: #FEE9DE;
+
+}
+
+.font-poppins {
+    font-family: Poppins;
+}

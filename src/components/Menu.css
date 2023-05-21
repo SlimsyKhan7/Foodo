@@ -1,0 +1,45 @@
+.red1 { 
+    color: #EB5757;
+}
+
+.white1 {
+    background: #F2F2F2;
+}
+
+.gray1 {
+    color: #828282;
+
+}
+
+.bgred1 {
+    background: #EB5757;
+}
+
+.black1 {
+    color: #333333;
+}
+
+.pink1 {
+    background: #FEE9DE;
+
+}
+
+.font-poppins {
+    font-family: Poppins;
+}
+
+.height508 {
+    height: 508px;
+}
+
+.w-436 {
+    width: 436px;
+}
+
+.backgroundpizza {
+    background-image: url('../assets/pizza.svg');
+}
+
+.background2 {
+    background: linear-gradient(359.23deg, rgba(0, 0, 0, 0.7) 0.74%, rgba(0, 0, 0, 0.212344) 42.39%, rgba(0, 0, 0, 0) 99.45%), url(.jpg);
+}
