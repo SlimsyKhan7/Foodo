@@ -1,4 +1,8 @@
 import { Carousel } from "@mantine/carousel"
+import IconArrowRight from "../assets/rightarrow.svg"
+import IconArrowLeft from "../assets/leftarrow.svg"
+import Arrow from "../assets/arrow.svg";
+import './Menu.css'
 
 export function Carousels() {
     return (
