@@ -52,7 +52,7 @@ export const Carousels: FC<Props> = ({img, img2, title1, title2, price1, price2}
                     <div className="height508 flex flex-col rounded-3xl background2 order-2">
                         <h1 className="font-medium text-white tracking-wider relative top-80 ml-4 order-2">{title2}</h1>
                         <p className="font-bold text-white text-4xl relative top-80 mt-2 ml-4 order-2"><span className="text-yellow-400 text-2xl mr-2">$</span>{price2}</p>
-                        <a className="hover:opacity-50 font-medium text-white text-lg relative top-80 mt-4 ml-4 flex order-2" href="#Order">Order Now<img className="ml-6" src={Arrow} alt="arrow" /></a>
+                        <a className="text-white hover:opacity-50 font-medium text-lg relative top-80 mt-4 ml-4 flex order-2" href="#Order">Order Now<img className="ml-6" src={Arrow} alt="arrow" /></a>
                     </div>
                 </div>
             </Carousel.Slide>
