@@ -11,7 +11,7 @@ import Burger2 from '../../assets/burger2.svg'
 import Cupcake2 from '../../assets/cupcake2.svg'
 import Ramen2 from '../../assets/ramen2.svg'
 import Icecream2 from '../../assets/icecream2.svg'
-import { useState, useEffect } from 'react'
+import { useState } from 'react'
 
 export function Menu() {
 

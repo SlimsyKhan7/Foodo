@@ -1,8 +1,6 @@
 import { Link } from 'react-router-dom'
 import { NavDropdown } from 'react-bootstrap'
 import "./Navbar.css";
-import { useState } from 'react'
-import LoginPopup from '../../components/Login/LoginPopup';
 
 export function Navbar() {
 
