@@ -1,9 +1,9 @@
 import { Container } from 'react-bootstrap'
 import './Footer.css'
-import Logo1 from '../assets/logo1.svg'	
-import Logo2 from '../assets/logo2.svg'
-import Logo3 from '../assets/logo3.svg'
-import Arrow3 from '../assets/arrow3.svg'
+import Logo1 from '../../assets/logo1.svg'	
+import Logo2 from '../../assets/logo2.svg'
+import Logo3 from '../../assets/logo3.svg'
+import Arrow3 from '../../assets/arrow3.svg'
 
 export function Footer() {
     return (

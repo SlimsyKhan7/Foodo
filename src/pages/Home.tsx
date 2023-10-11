@@ -1,9 +1,9 @@
-import { Header } from '../components/Header';
-import { Feature } from '../components/Feature';
-import { Menu } from '../components/Menu';
-import { Reviews } from '../components/Reviews';
-import { App } from '../components/App';
-import { Footer } from '../components/Footer';
+import { Header } from '../containers/Header/Header';
+import { Feature } from '../containers/Feature/Feature';
+import { Menu } from '../containers/Menu/Menu';
+import { Reviews } from '../containers/Reviews/Reviews';
+import { App } from '../containers/App/App';
+import { Footer } from '../containers/Footer/Footer';
 
 export function Home() {
     return (

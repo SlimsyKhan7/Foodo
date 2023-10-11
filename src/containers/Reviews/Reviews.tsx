@@ -1,8 +1,8 @@
 import { Container } from "react-bootstrap";
-import Chef from '../assets/chef.svg'
+import Chef from '../../assets/chef.svg'
 import "./Reviews.css"
-import Review from '../assets/review.svg'
-import Rating from '../assets/rating.svg'
+import Review from '../../assets/review.svg'
+import Rating from '../../assets/rating.svg'
 
 export function Reviews() {
     return (

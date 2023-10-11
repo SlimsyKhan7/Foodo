@@ -1,9 +1,17 @@
 import { Link } from 'react-router-dom'
 import { NavDropdown } from 'react-bootstrap'
 import "./Navbar.css";
+import { useState } from 'react'
+import LoginPopup from '../../components/Login/LoginPopup';
 
 export function Navbar() {
 
+    const click = (id1: string,id4: string) => {
+        const myElement1 = document.getElementById(id1) as HTMLElement;
+        const myElement2 = document.getElementById(id4) as HTMLElement;
+        myElement1.style.color = '#EB5757';
+        myElement2.style.color = 'black';
+    }
 
         
     return (
@@ -22,12 +30,12 @@ export function Navbar() {
                     
         
                         <div className='flex gap-10 font-medium'>
-                            <Link className='hover:text-red-400' to="/home">
+                            <Link id='1' onClick={() => click('1','4')} className='hover:text-red-400' to="/home">
                                 Why Fudo?
                             </Link>
                         
                             <NavDropdown
-                                id="nav-dropdown-dark-example"
+                                id="2"
                                 title="Services"
                                 menuVariant="dark"
                                 className='hover:text-red-400'
@@ -40,7 +48,7 @@ export function Navbar() {
                             </NavDropdown>
                         
                             <NavDropdown
-                                id="nav-dropdown-dark-example"
+                                id="3"
                                 title="Menu"
                                 menuVariant="dark"
                                 className='hover:text-red-400'
@@ -54,15 +62,9 @@ export function Navbar() {
 
 
 
-                            <Link className='hover:text-red-400' to="/contact">
+                            <Link id='4' onClick={() => click('4','1')} className='hover:text-red-400' to="/contact">
                                 Contact
                             </Link>
-                        
-                            <Link className='hover:text-red-400' to="/practice">
-                                Practice
-                            </Link>
-                        
-
                         </div>
                     
                         <div className='flex items-center gap-5'>

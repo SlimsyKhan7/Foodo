@@ -1,9 +1,9 @@
 import { Container } from 'react-bootstrap'
 import './Header.css'
-import Cherry from '../assets/cherry.svg'
-import Play from '../assets/play.svg'
-import People from '../assets/people.svg'
-import Star from '../assets/star.svg'
+import Cherry from '../../assets/cherry.svg'
+import Play from '../../assets/play.svg'
+import People from '../../assets/people.svg'
+import Star from '../../assets/star.svg'
 
 export function Header() {
     return (

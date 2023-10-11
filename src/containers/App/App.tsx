@@ -1,7 +1,7 @@
 import { Container } from "react-bootstrap";
 import './App.css'
-import app from '../assets/app.svg'
-import Delivery from '../assets/delivery.svg'
+import app from '../../assets/app.svg'
+import Delivery from '../../assets/delivery.svg'
 
 export function App() {
     return (

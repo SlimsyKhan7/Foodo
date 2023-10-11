@@ -1,7 +1,7 @@
 import { Container } from "react-bootstrap";
-import Feature1 from "../assets/feature1.svg"
-import Feature2 from "../assets/feature2.svg"
-import Feature3 from "../assets/feature3.svg"
+import Feature1 from "../../assets/feature1.svg"
+import Feature2 from "../../assets/feature2.svg"
+import Feature3 from "../../assets/feature3.svg"
 
 export function Feature() {
     return (
