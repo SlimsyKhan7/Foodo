@@ -18,7 +18,6 @@
     "@mantine/form": "^6.0.11",
     "@mantine/hooks": "^6.0.11",
     "bootstrap": "^5.2.3",
-    "embla-carousel-react": "^8.0.0-rc14",
     "react": "^18.2.0",
     "react-bootstrap": "^2.7.4",
     "react-dom": "^18.2.0",
